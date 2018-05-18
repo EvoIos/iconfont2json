@@ -1,0 +1,21 @@
+{
+  "name": "iconfont2json",
+  "version": "1.0.0",
+  "description": "convert ttf's content to json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "iconfont2json": "./index.js"
+  },
+  "author": "Pace.Z",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "commander": "^2.15.1",
+    "opentype.js": "^0.8.0",
+    "progress": "^2.0.0"
+  }
+}
